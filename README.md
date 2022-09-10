@@ -1,6 +1,6 @@
 # cypress-plugin-playwright
 
-This Cypress plugin allows you to run playwright code within cypress runner
+This Cypress plugin allows you to run playwright code within the cypress runner
 
 This plugin does not assume your cypress and/or playwright versions. Install them separately
 
