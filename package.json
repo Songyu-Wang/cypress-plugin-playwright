@@ -7,5 +7,28 @@
     "eslint-plugin-import": "^2.26.0",
     "playwright": "^1.25.2",
     "eslint-plugin-cypress": "^2.12.1"
-  }
+  },
+  "name": "cypress-plugin-playwright",
+  "description": "This Cypress plugin allows you to run playwright code within cypress runner",
+  "version": "1.0.1",
+  "scripts": {
+    "test": "cypress run --browser chrome --headed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Songyu-Wang/cypress-plugin-playwright.git"
+  },
+  "keywords": [
+    "cypress",
+    "playwright",
+    "e2e",
+    "test",
+    "testing"
+  ],
+  "author": "Songyu-Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Songyu-Wang/cypress-plugin-playwright/issues"
+  },
+  "homepage": "https://github.com/Songyu-Wang/cypress-plugin-playwright#readme"
 }

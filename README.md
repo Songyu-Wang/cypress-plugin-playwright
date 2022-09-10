@@ -9,13 +9,16 @@ see https://docs.cypress.io/guides/references/migration-guide#Migrating-to-Cypre
 
 ## Install
 
+```
+npm i cypress-plugin-playwright
+```
+
 ```javascript
 // cypress.config.js
 
 
 import {defineConfig} from 'cypress';
-
-import playwrightPlugin from './playwrightPlugin.js';
+import playwrightPlugin from "cypress-plugin-playwright/playwrightPlugin.js";
 
 export default defineConfig({
     // ...
