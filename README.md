@@ -4,7 +4,7 @@ This Cypress plugin allows you to run playwright code within the cypress runner
 
 This plugin does not assume your cypress and/or playwright versions. Install them separately
 
-If you are using `cypress<10.0.0`, you will have to reverse migrate the below code,
+If you are using `cypress<10.0.0`, you will have to reverse migrate the code below,
 see https://docs.cypress.io/guides/references/migration-guide#Migrating-to-Cypress-version-10-0
 
 ## Install
