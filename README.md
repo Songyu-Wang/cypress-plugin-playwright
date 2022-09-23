@@ -1,5 +1,8 @@
 # cypress-plugin-playwright
 
+Warning ⚠️: This repo is mainly used for POC. It lacks so many utilities. Do not attempt to use it directly as it is. 
+It is possible that I may come back to this and redo this the right way, but I highly doubt it. 
+
 This Cypress plugin allows you to run playwright code within the cypress runner using the same chromium-family instance started by cypress. It is inspired by https://github.com/microsoft/playwright/issues/17056 to work around some cypress limitations and awkward ideologies 
 
 This plugin does not assume your cypress and/or playwright versions. Install them separately
