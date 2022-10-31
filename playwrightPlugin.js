@@ -1,7 +1,7 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { chromium } from 'playwright';
 
-const MainFrame = (function () {
+export const MainFrame = (function () {
   async function getFrame(remoteDebuggingAddress, remoteDebuggingPort) {
     const browser = await chromium.connectOverCDP(`http://${remoteDebuggingAddress}:${remoteDebuggingPort}`);
     const context = browser.contexts()[0];
