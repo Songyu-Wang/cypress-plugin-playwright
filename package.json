@@ -10,7 +10,7 @@
   },
   "name": "cypress-plugin-playwright",
   "description": "This Cypress plugin allows you to run playwright code within cypress runner",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "scripts": {
     "test": "cypress run --browser chrome --headed"
   },
